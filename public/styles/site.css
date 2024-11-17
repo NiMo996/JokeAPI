@@ -1,0 +1,56 @@
+h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 3em;
+    text-align: center;
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    width: fit-content;
+}
+
+/* Styling the joke box container */
+#joke-box {
+    font-family: 'Verdana', sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 15px;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Styling the button with a fun effect */
+#get-joke {
+    background: linear-gradient(135deg, #00c6ff, #0072ff);
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Button hover effect */
+#get-joke:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Button active effect */
+#get-joke:active {
+    transform: translateY(2px);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for joke text */
+#joke, #joke-punchline {
+    font-size: 1.3em;
+    margin-top: 20px;
+    color: #333;
+}
